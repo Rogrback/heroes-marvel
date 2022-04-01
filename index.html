@@ -9,12 +9,20 @@
     <title>Marvel app</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <a href="/" class="navbar-brand">Marvel app</a>
+    <nav class="navbar navbar-dark bg-dark inline">
+        <a href="#" class="navbar-brand">Marvel app</a>
     </nav>
+    
+    <div class="row mt-4 mb-2">
+        <div class="col-sm-3">
+            <input class="form-control justify-content-center text-uppercase shadow-sm p-3 mb-5 bg-body rounded" type="search" placeholder="Search hero" aria-label="Search">
+        </div>
+        <div class="col-sm-5">
+            <button class="btn btn-outline-warning border border-3 rounded-pill btn-lg" type="submit">SEARCH</button>  
+        </div>             
+    </div>
     <div class="container">
-        <div class="row" id="marvel-row">
-            
+        <div class="row" id="marvel-row">            
         </div>
     </div>
     
